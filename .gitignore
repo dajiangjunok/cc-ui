@@ -1,0 +1,40 @@
+.DS_Store
+node_modules
+dist
+dist-ssr
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.zip
+
+# 忽略packages下相关文件
+packages/ccui/ui/vue-ccui.ts
+packages/ccui/ui/theme/theme.scss
+packages/ccui/ui/theme/darkTheme.css
+packages/ccui/docs/.vitepress/config/sidebar.ts
+packages/ccui/docs/.vitepress/config/enSidebar.ts
+packages/ccui/docs/.vitepress/config.ts.js
+packages/ccui/build
+
+**CHANGELOG.md
+# test
+packages/ccui/coverage
+packages/ccui/ui/**/__snapshots__
+.pnpm-debug.log
+ 
